@@ -173,7 +173,7 @@ WHERE NOT EXISTS (
 -- Query 3: WHERE
 -- Requirement: Retrieve all available vehicles of a specific type (e.g. cars).
 SELECT * FROM vehicles v
-WHERE v.type = 'car' AND V.status = 'available'
+WHERE v.type = 'car' AND v.status = 'available'
 
 -- Query 4: GROUP BY and HAVING
 -- Requirement: Find the total number of bookings for each vehicle and display 
